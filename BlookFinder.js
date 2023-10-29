@@ -4,7 +4,7 @@ for (let key in blacket.blooks) {
 }
 let blook = prompt('Which blook do you want to find?');
 while (!(totalBlooks.includes(blook))) {
-  blook = prompt('That is an inapplicable answer (all blooks other than User Blooks must be uppercase). Which blook do you want to find?');
+  blook = prompt('That is an inapplicable answer (all blooks other than Staff Blooks must be Uppercase). Which blook do you want to find?');
 }
 let find = prompt('What do you want to find?');
 while (find != 'Rarity' && find != 'rarity' && find != 'Chance' && find != 'chance') {
