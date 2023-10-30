@@ -1,5 +1,5 @@
 # BlacketStuff
-Some tools you could use to help you in Blacket. All of the following programs require being run on the console while in Blacket.
+Some tools you could use to help you in Blacket. The code in Bookmarkable Code can be bookmarked, and the code in Code is for debugging purposes. All of the following programs require being run on the console while in Blacket.
 
 # AccountWorth.js
 A program that will find how many tokens you would obtain if you sold your account.
