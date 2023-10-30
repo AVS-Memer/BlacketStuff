@@ -15,3 +15,6 @@ A program that will open up another window with the picture of an inputted blook
 
 # RarityCounter.js
 A program that will find how many blooks of an inputted rarity you have out of the total amount. All rarities must be Uppercase.
+
+# TokenConversion.js
+A program that will convert an inputted amount of tokens into one of the following: Dollars (USD), 1 Hour Boosters, 3 Hour Boosters, and Plus.
