@@ -7,11 +7,11 @@ while (!(totalBlooks.includes(blook))) {
   blook = prompt('That is an inapplicable answer (all blooks other than Staff Blooks must be Uppercase). Which blook do you want to find?');
 }
 let find = prompt('What do you want to find?');
-while (find != 'Rarity' && find != 'rarity' && find != 'Chance' && find != 'chance') {
+while (!["rarity", "chance"].includes(find.toLowerCase())) {
   find = prompt('That is an inapplicable answer. What do you want to find?');
 }
-if (find == 'Rarity' || find == 'rarity') {
+if (find.toLowerCase() == 'rarity') {
   alert(blook + " is a " + blacket.blooks[blook].rarity);
-} else if (find == 'Chance' || find == 'chance') {
+} else if (find.toLowerCase() == 'chance') {
   alert(blook + " has a " + blacket.blooks[blook].chance) + "% chance.";
 }
